@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/qml">
+        <file>Main.qml</file>
+        <file>BottomBar.qml</file>
+        <file>TopBar.qml</file>
+        <file>HomePage.qml</file>
+        <file>StatsPage.qml</file>
+        <file>StorePage.qml</file>
+        <file>TableMod.qml</file>
+        <file>StyledButton.qml</file>
+    </qresource>
+</RCC>
