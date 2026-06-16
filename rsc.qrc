@@ -8,5 +8,8 @@
         <file>StorePage.qml</file>
         <file>TableMod.qml</file>
         <file>StyledButton.qml</file>
+        <file>SettingsPage.qml</file>
+        <file>settings.png</file>
+        <file>IDEA.qml</file>
     </qresource>
 </RCC>
