@@ -31,8 +31,9 @@ public:
     QVBoxLayout *layout;
     QString m_filePath;
     Q_PROPERTY(QString filePath READ filePath WRITE setfilePath NOTIFY filePathChanged)
+    QString title;
+    Q_INVOKABLE void setTitle(QString titl);
     QString Daily;
-public:
     Q_INVOKABLE QString filePath() const { return m_filePath; }
     Q_INVOKABLE void setfilePath(const QString &newPath) {
         if (m_filePath == newPath) return;
